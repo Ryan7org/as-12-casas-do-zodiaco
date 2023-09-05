@@ -18,31 +18,31 @@ function MudaDesenho(){
         biogra.innerHTML = "Milo de Escorpião: Milo é intenso e determinado, características de Escorpião. Sua lealdade é inabalável, e ele é conhecido por sua força.";
     }
     
-    else if(valor=="peixes"){
+    else if(valor=="peixes" || valor == "Peixe"){
         texto.innerHTML = "Peixes";
         imagem.setAttribute("src","img/peixes.png");
         imagem.setAttribute("width","300px");
         biogra.innerHTML = "Afrodite de Peixes: Afrodite é sensível e sonhador, características de Peixes. Sua natureza gentil contrasta com sua habilidade no combate.";
     }
-    else if(valor=="Áries"){
+    else if(valor=="Áries" || valor == "aries" || valor == "Aries"){
         texto.innerHTML = "Áries";
         imagem.setAttribute("src","img/aries.png");
         imagem.setAttribute("width","300px");
         biogra.innerHTML = "Mu de Áries: Mu é protetor e leal, como típico de Áries. Sua personalidade é corajosa e determinada, sempre pronta para lutar pelas pessoas que ama.";
     }
-    else if(valor=="Touro"){
+    else if(valor=="Touro" || valor == "touro"){
         texto.innerHTML = "Touro";
         imagem.setAttribute("src","img/touro.png");
         imagem.setAttribute("width","300px");
         biogra.innerHTML = "Aldebaran de Touro: Aldebaran é paciente e teimoso, como os traços de Touro. Ele é forte e confiável, muitas vezes agindo como um pilar de apoio para os outros.";
     }
-    else if(valor=="virgem"){
+    else if(valor=="virgem" || valor == "Virgem"){
         texto.innerHTML = "Touro";
         imagem.setAttribute("src","img/virgem.png");
         imagem.setAttribute("width","300px");
         biogra.innerHTML = "Shaka de Virgem: Shaka é analítico e perfeccionista, como os traços de Virgem. Ele é sábio e compassivo, sempre buscando a verdade interior.";
     }
-    else if(valor=="aquario"){
+    else if(valor=="aquario" || valor == "Aquario"){
         texto.innerHTML = "Aquario";
         imagem.setAttribute("src","img/aquario.jpg");
         imagem.setAttribute("width","300px");
